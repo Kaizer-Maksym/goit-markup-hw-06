@@ -359,36 +359,52 @@
         </div>
         <div class="flex-item-2">
           <h2 class="cf-title">присоединяйтесь</h2>
-          <ul class="cf list">
-            <li class="cf-item">
-              <a href="https://www.instagram.com/" class="cf-icon">
-                <svg width="20" height="20" class="cf-networks">
-                  <use href="./images/icons.svg#icon-instagram-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="cf-item">
-              <a href="https://twitter.com/" class="cf-icon">
-                <svg width="20" height="20" class="cf-networks">
-                  <use href="./images/icons.svg#icon-twitter-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="cf-item">
-              <a href="https://www.facebook.com/" class="cf-icon">
-                <svg width="20" height="20" class="cf-networks">
-                  <use href="./images/icons.svg#icon-facebook-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="cf-item">
-              <a href="https://www.linkedin.com/" class="cf-icon">
-                <svg width="20" height="20" class="cf-networks">
-                  <use href="./images/icons.svg#icon-linkedin-1"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+          <div class="cf-link">
+            <ul class="cf list">
+              <li class="cf-item">
+                <a href="https://www.instagram.com/" class="cf-icon">
+                  <svg width="20" height="20" class="cf-networks">
+                    <use href="./images/icons.svg#icon-instagram-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="cf-item">
+                <a href="https://twitter.com/" class="cf-icon">
+                  <svg width="20" height="20" class="cf-networks">
+                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="cf-item">
+                <a href="https://www.facebook.com/" class="cf-icon">
+                  <svg width="20" height="20" class="cf-networks">
+                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="cf-item">
+                <a href="https://www.linkedin.com/" class="cf-icon">
+                  <svg width="20" height="20" class="cf-networks">
+                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer form-field">
+          <form class="footer-form">
+            <b>Подпишитесь на рассылку</b>
+            <label>
+              <input type="email" name="mail" placeholder="E-mail" class="footer-mail" />
+            </label>
+            <button type="submit" class="butto send-button">
+              Подписаться
+              <svg width="24" height="24" class="icon-send">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
@@ -400,6 +416,44 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
+        <form class="form">
+          <div class="input">
+            <div class="form-fild">
+              <label for="name" class="modal-label"> Имя</label>
+              <input type="text" name="name" id="name" class="modal-input" />
+            </div>
+            <div class="form-fild">
+              <label for="tel" class="modal-label">Телефон</label>
+              <input type="tel" name="tel" id="tel" class="modal-input" />
+            </div>
+            <div class="form-fild">
+              <label for="mail" class="modal-label">Почта </label>
+              <input type="email" name="mail" id="mail" class="modal-input" />
+            </div>
+            <div class="form-fild">
+              <label for="comment" class="modal-label">Коментарий</label>
+              <textarea
+                name="comment"
+                cols="30"
+                rows="10"
+                placeholder="Введите текст"
+                id="comment"
+                class="modal-comment"
+              ></textarea>
+            </div>
+          </div>
+          <div class="agreement">
+            <input type="checkbox" name="agreement" id="agreement" class="checkbox" />
+            <label for="agreement">
+              Соглашаюсь с рассылкой и принимаю
+              <a href="" class="contract">Условия договора</a>
+            </label>
+          </div>
+          <label>
+            <button type="submit" class="button modal-button">Отправить</button>
+          </label>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
