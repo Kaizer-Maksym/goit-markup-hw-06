@@ -1077,6 +1077,7 @@ b {
 
 .modal-comment {
   padding: 12px 16px;
+  resize: none;
 }
 
 .form-fild:not(:last-child) {
