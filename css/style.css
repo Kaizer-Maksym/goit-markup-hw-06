@@ -39,17 +39,17 @@ body {
 
 /*------------------- Утилиты -----------------------*/
 
-input:-webkit-autofill {
+/* input:-webkit-autofill {
   -webkit-background-clip: text;
-}
+} */
 
 input {
   background: transparent;
 }
 
-input.no-autofill-bkg:-webkit-autofill {
+/* input.no-autofill-bkg:-webkit-autofill {
   -webkit-background-clip: text;
-}
+} */
 
 .clients {
   fill: var(--footer-tx-color);
